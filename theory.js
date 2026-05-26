@@ -159,11 +159,11 @@ const theoryHTML = `
                 <h4>🏠 Funcția 1: Besitz (POSESIE) — ce DEȚII</h4>
                 <p>Folosit pentru obiecte, locuri, animale, lucruri pe care le ai. <strong>Cu articol</strong> (ein/eine).</p>
                 <table class="grammar-table">
-                    <tr><th>Propoziție DE</th><th>Traducere RO</th></tr>
-                    <tr><td>Mihai <strong>hat ein Restaurant</strong>.</td><td><em style="color:#6b7280;">Mihai are un restaurant.</em></td></tr>
-                    <tr><td>Andreea <strong>hat ein Buch</strong>.</td><td><em style="color:#6b7280;">Andreea are o carte.</em></td></tr>
-                    <tr><td>Wir <strong>haben ein Auto</strong>.</td><td><em style="color:#6b7280;">Noi avem o mașină.</em></td></tr>
-                    <tr><td>Carolina <strong>hat eine gute Kamera</strong>.</td><td><em style="color:#6b7280;">Carolina are o cameră bună.</em></td></tr>
+                    <tr><th>Propoziție DE</th><th>Traducere RO</th><th>Substantiv Sg · Pl</th></tr>
+                    <tr><td>Mihai <strong>hat ein Restaurant</strong>.</td><td><em style="color:#6b7280;">Mihai are un restaurant.</em></td><td><strong>das Restaurant · die Restaurants</strong><br><span class="ro-translation">restaurantul · restaurantele</span></td></tr>
+                    <tr><td>Andreea <strong>hat ein Buch</strong>.</td><td><em style="color:#6b7280;">Andreea are o carte.</em></td><td><strong>das Buch · die Bücher</strong><br><span class="ro-translation">cartea · cărțile</span></td></tr>
+                    <tr><td>Wir <strong>haben ein Auto</strong>.</td><td><em style="color:#6b7280;">Noi avem o mașină.</em></td><td><strong>das Auto · die Autos</strong><br><span class="ro-translation">mașina · mașinile</span></td></tr>
+                    <tr><td>Carolina <strong>hat eine gute Kamera</strong>.</td><td><em style="color:#6b7280;">Carolina are o cameră bună.</em></td><td><strong>die Kamera · die Kameras</strong><br><span class="ro-translation">camera · camerele</span></td></tr>
                 </table>
             </div>
 
@@ -171,11 +171,11 @@ const theoryHTML = `
                 <h4>👨‍👩‍👧 Funcția 2: Zugehörigkeit (APARTENENȚĂ) — relații</h4>
                 <p>Folosit pentru familie, prieteni, colegi. <strong>Cu articol</strong> (eine/einen).</p>
                 <table class="grammar-table">
-                    <tr><th>Propoziție DE</th><th>Traducere RO</th></tr>
-                    <tr><td>Mihai <strong>hat eine Schwester</strong> in Russland.</td><td><em style="color:#6b7280;">Mihai are o soră în Rusia.</em></td></tr>
-                    <tr><td>Annette <strong>hat einen Freund</strong>.</td><td><em style="color:#6b7280;">Annette are un prieten.</em></td></tr>
-                    <tr><td>Florian <strong>hat zwei Kinder</strong>.</td><td><em style="color:#6b7280;">Florian are doi copii.</em></td></tr>
-                    <tr><td>Acar <strong>hat drei Brüder</strong>.</td><td><em style="color:#6b7280;">Acar are trei frați.</em></td></tr>
+                    <tr><th>Propoziție DE</th><th>Traducere RO</th><th>Substantiv Sg · Pl</th></tr>
+                    <tr><td>Mihai <strong>hat eine Schwester</strong> in Russland.</td><td><em style="color:#6b7280;">Mihai are o soră în Rusia.</em></td><td><strong>die Schwester · die Schwestern</strong><br><span class="ro-translation">sora · surorile</span></td></tr>
+                    <tr><td>Annette <strong>hat einen Freund</strong>.</td><td><em style="color:#6b7280;">Annette are un prieten.</em></td><td><strong>der Freund · die Freunde</strong><br><span class="ro-translation">prietenul · prietenii</span></td></tr>
+                    <tr><td>Florian <strong>hat zwei Kinder</strong>.</td><td><em style="color:#6b7280;">Florian are doi copii.</em></td><td><strong>das Kind · die Kinder</strong><br><span class="ro-translation">copilul · copiii</span></td></tr>
+                    <tr><td>Acar <strong>hat drei Brüder</strong>.</td><td><em style="color:#6b7280;">Acar are trei frați.</em></td><td><strong>der Bruder · die Brüder</strong><br><span class="ro-translation">fratele · frații</span></td></tr>
                 </table>
             </div>
 
