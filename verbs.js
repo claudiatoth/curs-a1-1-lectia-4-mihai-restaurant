@@ -40,7 +40,7 @@ const verbsData = [
 function tenseTable(title, rows) {
     let r = '';
     rows.forEach(function (x) {
-        r += '<tr><td><strong>' + x[0] + '</strong></td><td>' + x[1] + '</td><td><em style="color:#6b7280;">' + x[2] + '</em></td></tr>';
+        r += '<tr><td><strong>' + x[0] + '</strong></td><td>' + x[1] + '</td><td><em style="color:#5A5147;">' + x[2] + '</em></td></tr>';
     });
     return '<div class="theory-box" style="margin:8px 0;"><h4>' + title + '</h4><table class="grammar-table"><tr><th>Pronume</th><th>Germană</th><th>Traducere RO</th></tr>' + r + '</table></div>';
 }
@@ -48,12 +48,12 @@ function tenseTable(title, rows) {
 function perfektCompact(v) {
     var ex = v.perf[2] || v.perf[0];
     var hint = v.impersonal
-        ? '<small style="color:#6b7280;">Verb IMPERSONAL — doar forma „es": <strong>es ' + v.perf[0][1] + '</strong>. NU se conjugă cu ich/du/wir...</small>'
-        : '<small style="color:#6b7280;">Conjugi auxiliarul ca de obicei (' + (v.aux === 'sein' ? 'ich bin, du bist, er ist...' : 'ich habe, du hast, er hat...') + ') + <strong>' + v.part + '</strong>.</small>';
+        ? '<small style="color:#5A5147;">Verb IMPERSONAL — doar forma „es": <strong>es ' + v.perf[0][1] + '</strong>. NU se conjugă cu ich/du/wir...</small>'
+        : '<small style="color:#5A5147;">Conjugi auxiliarul ca de obicei (' + (v.aux === 'sein' ? 'ich bin, du bist, er ist...' : 'ich habe, du hast, er hat...') + ') + <strong>' + v.part + '</strong>.</small>';
     return '<div class="theory-box" style="margin:8px 0; background:#d1fae5;">' +
         '<h4>Perfekt (pe scurt)</h4>' +
         '<p style="margin:0;">Auxiliar <strong>' + v.aux + '</strong> + participiul <strong>' + v.part + '</strong><br>' +
-        '<em>Exemplu:</em> ' + ex[0] + ' <strong>' + ex[1] + '</strong> · <em style="color:#6b7280;">' + ex[2] + '</em><br>' +
+        '<em>Exemplu:</em> ' + ex[0] + ' <strong>' + ex[1] + '</strong> · <em style="color:#5A5147;">' + ex[2] + '</em><br>' +
         hint + '</p></div>';
 }
 
@@ -85,7 +85,7 @@ function buildVerbs() {
             tenseTable('Präsens (prezent)', v.praes) +
             tenseTable('Präteritum (imperfect)', v.praet) +
             perfektCompact(v) +
-            (v.note ? '<div class="theory-box" style="background:#fef3c7;"><p style="margin:0;"><strong>⚠️ </strong>' + v.note + '</p></div>' : '') +
+            (v.note ? '<div class="theory-box" style="background:#F5F0E8;"><p style="margin:0;"><strong>⚠️ </strong>' + v.note + '</p></div>' : '') +
             '</div></div>';
     });
     container.innerHTML = html;

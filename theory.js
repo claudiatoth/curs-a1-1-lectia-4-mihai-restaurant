@@ -106,16 +106,16 @@ const theoryHTML = `
                 <h4>📊 Conjugarea haben</h4>
                 <table class="grammar-table">
                     <tr><th>Pronume</th><th>Formă</th><th>Traducere</th><th>Exemplu (DE + RO)</th></tr>
-                    <tr><td><strong>ich</strong></td><td><strong>habe</strong></td><td>eu am</td><td>Ich <strong>habe</strong> ein Restaurant.<br><em style="color:#6b7280;">Eu am un restaurant.</em></td></tr>
-                    <tr><td><strong>du</strong></td><td><strong>hast</strong></td><td>tu ai</td><td>Du <strong>hast</strong> Hunger.<br><em style="color:#6b7280;">Tu ești flămând (lit. ai foame).</em></td></tr>
-                    <tr><td><strong>er/sie/es</strong></td><td><strong>hat</strong></td><td>el/ea are</td><td>Mihai <strong>hat</strong> Kopfschmerzen.<br><em style="color:#6b7280;">Mihai are dureri de cap.</em></td></tr>
-                    <tr><td><strong>wir</strong></td><td><strong>haben</strong></td><td>noi avem</td><td>Wir <strong>haben</strong> ein Problem.<br><em style="color:#6b7280;">Noi avem o problemă.</em></td></tr>
-                    <tr><td><strong>ihr</strong></td><td><strong>habt</strong></td><td>voi aveți</td><td>Ihr <strong>habt</strong> keine Zeit.<br><em style="color:#6b7280;">Voi nu aveți timp.</em></td></tr>
-                    <tr><td><strong>sie/Sie</strong></td><td><strong>haben</strong></td><td>ei au / dvs. aveți</td><td><strong>Haben</strong> Sie eine Idee?<br><em style="color:#6b7280;">Aveți (dvs.) o idee?</em></td></tr>
+                    <tr><td><strong>ich</strong></td><td><strong>habe</strong></td><td>eu am</td><td>Ich <strong>habe</strong> ein Restaurant.<br><em style="color:#5A5147;">Eu am un restaurant.</em></td></tr>
+                    <tr><td><strong>du</strong></td><td><strong>hast</strong></td><td>tu ai</td><td>Du <strong>hast</strong> Hunger.<br><em style="color:#5A5147;">Tu ești flămând (lit. ai foame).</em></td></tr>
+                    <tr><td><strong>er/sie/es</strong></td><td><strong>hat</strong></td><td>el/ea are</td><td>Mihai <strong>hat</strong> Kopfschmerzen.<br><em style="color:#5A5147;">Mihai are dureri de cap.</em></td></tr>
+                    <tr><td><strong>wir</strong></td><td><strong>haben</strong></td><td>noi avem</td><td>Wir <strong>haben</strong> ein Problem.<br><em style="color:#5A5147;">Noi avem o problemă.</em></td></tr>
+                    <tr><td><strong>ihr</strong></td><td><strong>habt</strong></td><td>voi aveți</td><td>Ihr <strong>habt</strong> keine Zeit.<br><em style="color:#5A5147;">Voi nu aveți timp.</em></td></tr>
+                    <tr><td><strong>sie/Sie</strong></td><td><strong>haben</strong></td><td>ei au / dvs. aveți</td><td><strong>Haben</strong> Sie eine Idee?<br><em style="color:#5A5147;">Aveți (dvs.) o idee?</em></td></tr>
                 </table>
             </div>
 
-            <div class="theory-box" style="background: #fef3c7; border-left: 4px solid #f59e0b;">
+            <div class="theory-box" style="background: #F5F0E8; border-left: 4px solid #D4A574;">
                 <h4>⚠️ Capcanele lui haben</h4>
                 <ul style="margin-left: 18px;">
                     <li><strong>du hast</strong> — NU <s>du habst</s>! Se pierde <em>be</em> din radical.</li>
@@ -160,10 +160,10 @@ const theoryHTML = `
                 <p>Folosit pentru obiecte, locuri, animale, lucruri pe care le ai. <strong>Cu articol</strong> (ein/eine).</p>
                 <table class="grammar-table">
                     <tr><th>Propoziție DE</th><th>Traducere RO</th><th>Substantiv Sg · Pl</th></tr>
-                    <tr><td>Mihai <strong>hat ein Restaurant</strong>.</td><td><em style="color:#6b7280;">Mihai are un restaurant.</em></td><td><strong>das Restaurant · die Restaurants</strong><br><span class="ro-translation">restaurantul · restaurantele</span></td></tr>
-                    <tr><td>Andreea <strong>hat ein Buch</strong>.</td><td><em style="color:#6b7280;">Andreea are o carte.</em></td><td><strong>das Buch · die Bücher</strong><br><span class="ro-translation">cartea · cărțile</span></td></tr>
-                    <tr><td>Wir <strong>haben ein Auto</strong>.</td><td><em style="color:#6b7280;">Noi avem o mașină.</em></td><td><strong>das Auto · die Autos</strong><br><span class="ro-translation">mașina · mașinile</span></td></tr>
-                    <tr><td>Carolina <strong>hat eine gute Kamera</strong>.</td><td><em style="color:#6b7280;">Carolina are o cameră bună.</em></td><td><strong>die Kamera · die Kameras</strong><br><span class="ro-translation">camera · camerele</span></td></tr>
+                    <tr><td>Mihai <strong>hat ein Restaurant</strong>.</td><td><em style="color:#5A5147;">Mihai are un restaurant.</em></td><td><strong>das Restaurant · die Restaurants</strong><br><span class="ro-translation">restaurantul · restaurantele</span></td></tr>
+                    <tr><td>Andreea <strong>hat ein Buch</strong>.</td><td><em style="color:#5A5147;">Andreea are o carte.</em></td><td><strong>das Buch · die Bücher</strong><br><span class="ro-translation">cartea · cărțile</span></td></tr>
+                    <tr><td>Wir <strong>haben ein Auto</strong>.</td><td><em style="color:#5A5147;">Noi avem o mașină.</em></td><td><strong>das Auto · die Autos</strong><br><span class="ro-translation">mașina · mașinile</span></td></tr>
+                    <tr><td>Carolina <strong>hat eine gute Kamera</strong>.</td><td><em style="color:#5A5147;">Carolina are o cameră bună.</em></td><td><strong>die Kamera · die Kameras</strong><br><span class="ro-translation">camera · camerele</span></td></tr>
                 </table>
             </div>
 
@@ -172,10 +172,10 @@ const theoryHTML = `
                 <p>Folosit pentru familie, prieteni, colegi. <strong>Cu articol</strong> (eine/einen).</p>
                 <table class="grammar-table">
                     <tr><th>Propoziție DE</th><th>Traducere RO</th><th>Substantiv Sg · Pl</th></tr>
-                    <tr><td>Mihai <strong>hat eine Schwester</strong> in Russland.</td><td><em style="color:#6b7280;">Mihai are o soră în Rusia.</em></td><td><strong>die Schwester · die Schwestern</strong><br><span class="ro-translation">sora · surorile</span></td></tr>
-                    <tr><td>Annette <strong>hat einen Freund</strong>.</td><td><em style="color:#6b7280;">Annette are un prieten.</em></td><td><strong>der Freund · die Freunde</strong><br><span class="ro-translation">prietenul · prietenii</span></td></tr>
-                    <tr><td>Florian <strong>hat zwei Kinder</strong>.</td><td><em style="color:#6b7280;">Florian are doi copii.</em></td><td><strong>das Kind · die Kinder</strong><br><span class="ro-translation">copilul · copiii</span></td></tr>
-                    <tr><td>Acar <strong>hat drei Brüder</strong>.</td><td><em style="color:#6b7280;">Acar are trei frați.</em></td><td><strong>der Bruder · die Brüder</strong><br><span class="ro-translation">fratele · frații</span></td></tr>
+                    <tr><td>Mihai <strong>hat eine Schwester</strong> in Russland.</td><td><em style="color:#5A5147;">Mihai are o soră în Rusia.</em></td><td><strong>die Schwester · die Schwestern</strong><br><span class="ro-translation">sora · surorile</span></td></tr>
+                    <tr><td>Annette <strong>hat einen Freund</strong>.</td><td><em style="color:#5A5147;">Annette are un prieten.</em></td><td><strong>der Freund · die Freunde</strong><br><span class="ro-translation">prietenul · prietenii</span></td></tr>
+                    <tr><td>Florian <strong>hat zwei Kinder</strong>.</td><td><em style="color:#5A5147;">Florian are doi copii.</em></td><td><strong>das Kind · die Kinder</strong><br><span class="ro-translation">copilul · copiii</span></td></tr>
+                    <tr><td>Acar <strong>hat drei Brüder</strong>.</td><td><em style="color:#5A5147;">Acar are trei frați.</em></td><td><strong>der Bruder · die Brüder</strong><br><span class="ro-translation">fratele · frații</span></td></tr>
                 </table>
             </div>
 
@@ -184,12 +184,12 @@ const theoryHTML = `
                 <p>Folosit pentru senzații fizice (foame, sete), sentimente (frică, plictiseală), stări (timp, chef). <strong>FĂRĂ articol</strong>!</p>
                 <table class="grammar-table">
                     <tr><th>Propoziție DE</th><th>Traducere RO</th></tr>
-                    <tr><td>Mihai <strong>hat Hunger</strong>.</td><td><em style="color:#6b7280;">Mihai e flămând. (lit. are foame)</em></td></tr>
-                    <tr><td>Andreea <strong>hat Durst</strong>.</td><td><em style="color:#6b7280;">Andreea e însetată.</em></td></tr>
-                    <tr><td>Wir <strong>haben keine Zeit</strong>.</td><td><em style="color:#6b7280;">Noi nu avem timp.</em></td></tr>
-                    <tr><td>Sie <strong>hat Angst</strong>.</td><td><em style="color:#6b7280;">Ea are frică / Ei e frică.</em></td></tr>
+                    <tr><td>Mihai <strong>hat Hunger</strong>.</td><td><em style="color:#5A5147;">Mihai e flămând. (lit. are foame)</em></td></tr>
+                    <tr><td>Andreea <strong>hat Durst</strong>.</td><td><em style="color:#5A5147;">Andreea e însetată.</em></td></tr>
+                    <tr><td>Wir <strong>haben keine Zeit</strong>.</td><td><em style="color:#5A5147;">Noi nu avem timp.</em></td></tr>
+                    <tr><td>Sie <strong>hat Angst</strong>.</td><td><em style="color:#5A5147;">Ea are frică / Ei e frică.</em></td></tr>
                 </table>
-                <p style="margin-top: 8px; color: #6b7280;"><em>💡 Atenție: aici NU folosim <strong>ein/eine</strong>! Spunem <em>„Ich habe Hunger"</em>, NU <em>„Ich habe einen Hunger"</em>.</em></p>
+                <p style="margin-top: 8px; color: #5A5147;"><em>💡 Atenție: aici NU folosim <strong>ein/eine</strong>! Spunem <em>„Ich habe Hunger"</em>, NU <em>„Ich habe einen Hunger"</em>.</em></p>
             </div>
         </div>
     </div>
@@ -213,16 +213,16 @@ const theoryHTML = `
                 <h4>🥗 1. Stări fizice & sentimente — vocabular esențial</h4>
                 <table class="grammar-table">
                     <tr><th>Expresie DE</th><th>Traducere RO</th><th>Exemplu</th></tr>
-                    <tr><td><strong>Hunger haben</strong></td><td>a-i fi foame</td><td><em style="color:#6b7280;">Mihai hat Hunger.</em></td></tr>
-                    <tr><td><strong>Durst haben</strong></td><td>a-i fi sete</td><td><em style="color:#6b7280;">Andreea hat Durst.</em></td></tr>
-                    <tr><td><strong>Lust auf + Nomen</strong></td><td>a avea chef de ceva</td><td><em style="color:#6b7280;">Ich habe Lust auf Pizza.</em></td></tr>
-                    <tr><td><strong>Appetit auf + Nomen</strong></td><td>a avea poftă de ceva</td><td><em style="color:#6b7280;">Sie hat Appetit auf Schokolade.</em></td></tr>
-                    <tr><td><strong>Zeit haben</strong></td><td>a avea timp</td><td><em style="color:#6b7280;">Hast du Zeit?</em></td></tr>
-                    <tr><td><strong>Angst haben</strong></td><td>a-i fi frică</td><td><em style="color:#6b7280;">Das Kind hat Angst.</em></td></tr>
-                    <tr><td><strong>Geduld haben</strong></td><td>a avea răbdare</td><td><em style="color:#6b7280;">Annette hat Geduld.</em></td></tr>
-                    <tr><td><strong>recht haben</strong></td><td>a avea dreptate</td><td><em style="color:#6b7280;">Du hast recht!</em></td></tr>
+                    <tr><td><strong>Hunger haben</strong></td><td>a-i fi foame</td><td><em style="color:#5A5147;">Mihai hat Hunger.</em></td></tr>
+                    <tr><td><strong>Durst haben</strong></td><td>a-i fi sete</td><td><em style="color:#5A5147;">Andreea hat Durst.</em></td></tr>
+                    <tr><td><strong>Lust auf + Nomen</strong></td><td>a avea chef de ceva</td><td><em style="color:#5A5147;">Ich habe Lust auf Pizza.</em></td></tr>
+                    <tr><td><strong>Appetit auf + Nomen</strong></td><td>a avea poftă de ceva</td><td><em style="color:#5A5147;">Sie hat Appetit auf Schokolade.</em></td></tr>
+                    <tr><td><strong>Zeit haben</strong></td><td>a avea timp</td><td><em style="color:#5A5147;">Hast du Zeit?</em></td></tr>
+                    <tr><td><strong>Angst haben</strong></td><td>a-i fi frică</td><td><em style="color:#5A5147;">Das Kind hat Angst.</em></td></tr>
+                    <tr><td><strong>Geduld haben</strong></td><td>a avea răbdare</td><td><em style="color:#5A5147;">Annette hat Geduld.</em></td></tr>
+                    <tr><td><strong>recht haben</strong></td><td>a avea dreptate</td><td><em style="color:#5A5147;">Du hast recht!</em></td></tr>
                 </table>
-                <p style="margin-top: 10px; color: #6b7280;"><em>💡 La <strong>Lust / Appetit / Hunger / Durst</strong> + ceva → folosești prepoziția <strong>auf</strong>: „Ich habe Lust AUF Tennis."</em></p>
+                <p style="margin-top: 10px; color: #5A5147;"><em>💡 La <strong>Lust / Appetit / Hunger / Durst</strong> + ceva → folosești prepoziția <strong>auf</strong>: „Ich habe Lust AUF Tennis."</em></p>
             </div>
 
             <div class="theory-box" style="background: #fee2e2;">
@@ -236,10 +236,10 @@ const theoryHTML = `
                     <tr><td><strong>Halsschmerzen haben</strong></td><td>a avea dureri de gât</td></tr>
                     <tr><td><strong>Rückenschmerzen haben</strong></td><td>a avea dureri de spate</td></tr>
                 </table>
-                <p style="margin-top: 8px; color: #6b7280;"><em>💡 Construcție: <strong>parte a corpului</strong> + <strong>Schmerzen</strong> (lipit, un singur cuvânt).</em></p>
+                <p style="margin-top: 8px; color: #5A5147;"><em>💡 Construcție: <strong>parte a corpului</strong> + <strong>Schmerzen</strong> (lipit, un singur cuvânt).</em></p>
             </div>
 
-            <div class="theory-box" style="background: #fef3c7;">
+            <div class="theory-box" style="background: #F5F0E8;">
                 <h4>🤒 3. Boli (die Krankheiten)</h4>
                 <table class="grammar-table">
                     <tr><th>Boală DE</th><th>Traducere RO</th></tr>
@@ -321,22 +321,22 @@ const theoryHTML = `
                 <h4>📊 Tabelul perechilor critice</h4>
                 <table class="grammar-table">
                     <tr><th>Adjectiv + sein</th><th>Substantiv + haben</th><th>Traducere RO comună</th></tr>
-                    <tr><td>Ich <strong>bin hungrig</strong>.</td><td>Ich <strong>habe Hunger</strong>.</td><td><em style="color:#6b7280;">Mi-e foame / Sunt flămând.</em></td></tr>
-                    <tr><td>Du <strong>bist durstig</strong>.</td><td>Du <strong>hast Durst</strong>.</td><td><em style="color:#6b7280;">Ți-e sete.</em></td></tr>
-                    <tr><td>Sie <strong>ist ängstlich</strong>.</td><td>Sie <strong>hat Angst</strong>.</td><td><em style="color:#6b7280;">Îi e frică.</em></td></tr>
-                    <tr><td>Wir <strong>sind müde</strong>.</td><td>Wir <strong>haben keine Energie</strong>.</td><td><em style="color:#6b7280;">Suntem obosiți / nu avem energie.</em></td></tr>
-                    <tr><td>Er <strong>ist krank</strong>.</td><td>Er <strong>hat Fieber</strong>.</td><td><em style="color:#6b7280;">El e bolnav / are febră.</em></td></tr>
+                    <tr><td>Ich <strong>bin hungrig</strong>.</td><td>Ich <strong>habe Hunger</strong>.</td><td><em style="color:#5A5147;">Mi-e foame / Sunt flămând.</em></td></tr>
+                    <tr><td>Du <strong>bist durstig</strong>.</td><td>Du <strong>hast Durst</strong>.</td><td><em style="color:#5A5147;">Ți-e sete.</em></td></tr>
+                    <tr><td>Sie <strong>ist ängstlich</strong>.</td><td>Sie <strong>hat Angst</strong>.</td><td><em style="color:#5A5147;">Îi e frică.</em></td></tr>
+                    <tr><td>Wir <strong>sind müde</strong>.</td><td>Wir <strong>haben keine Energie</strong>.</td><td><em style="color:#5A5147;">Suntem obosiți / nu avem energie.</em></td></tr>
+                    <tr><td>Er <strong>ist krank</strong>.</td><td>Er <strong>hat Fieber</strong>.</td><td><em style="color:#5A5147;">El e bolnav / are febră.</em></td></tr>
                 </table>
             </div>
 
-            <div class="theory-box" style="background: #fef3c7;">
+            <div class="theory-box" style="background: #F5F0E8;">
                 <h4>📋 Cele 4 funcții ale lui sein vs. cele 3 funcții ale lui haben</h4>
                 <table class="grammar-table">
                     <tr><th>sein (a fi) — 4 funcții</th><th>haben (a avea) — 3 funcții</th></tr>
-                    <tr><td><strong>1. Vorstellung</strong> (prezentare)<br><em>Ich bin Andreea.</em><br><em style="color:#6b7280;">Eu sunt Andreea.</em></td><td><strong>1. Besitz</strong> (posesie)<br><em>Ich habe ein Haus.</em><br><em style="color:#6b7280;">Eu am o casă.</em></td></tr>
-                    <tr><td><strong>2. Alter/Beruf</strong> (vârstă/profesie)<br><em>Sie ist Lehrerin.</em><br><em style="color:#6b7280;">Ea este profesoară.</em></td><td><strong>2. Zugehörigkeit</strong> (apartenență)<br><em>Ich habe eine Schwester.</em><br><em style="color:#6b7280;">Eu am o soră.</em></td></tr>
-                    <tr><td><strong>3. + Adjektiv</strong><br><em>Ich bin hungrig.</em><br><em style="color:#6b7280;">Sunt flămând.</em></td><td><strong>3. + Nomen FĂRĂ articol</strong><br><em>Ich habe Hunger.</em><br><em style="color:#6b7280;">Mi-e foame.</em></td></tr>
-                    <tr><td><strong>4. + Nomen CU articol</strong><br><em>Sie ist meine Freundin.</em><br><em style="color:#6b7280;">Ea este prietena mea.</em></td><td>&nbsp;</td></tr>
+                    <tr><td><strong>1. Vorstellung</strong> (prezentare)<br><em>Ich bin Andreea.</em><br><em style="color:#5A5147;">Eu sunt Andreea.</em></td><td><strong>1. Besitz</strong> (posesie)<br><em>Ich habe ein Haus.</em><br><em style="color:#5A5147;">Eu am o casă.</em></td></tr>
+                    <tr><td><strong>2. Alter/Beruf</strong> (vârstă/profesie)<br><em>Sie ist Lehrerin.</em><br><em style="color:#5A5147;">Ea este profesoară.</em></td><td><strong>2. Zugehörigkeit</strong> (apartenență)<br><em>Ich habe eine Schwester.</em><br><em style="color:#5A5147;">Eu am o soră.</em></td></tr>
+                    <tr><td><strong>3. + Adjektiv</strong><br><em>Ich bin hungrig.</em><br><em style="color:#5A5147;">Sunt flămând.</em></td><td><strong>3. + Nomen FĂRĂ articol</strong><br><em>Ich habe Hunger.</em><br><em style="color:#5A5147;">Mi-e foame.</em></td></tr>
+                    <tr><td><strong>4. + Nomen CU articol</strong><br><em>Sie ist meine Freundin.</em><br><em style="color:#5A5147;">Ea este prietena mea.</em></td><td>&nbsp;</td></tr>
                 </table>
             </div>
 
@@ -379,11 +379,11 @@ const theoryHTML = `
             <div class="theory-box" style="background: #ecfdf5;">
                 <h4>💬 Ce poți spune acum despre tine</h4>
                 <ul style="margin-left: 18px;">
-                    <li><strong>Ich habe ein Auto / ein Haus / einen Hund.</strong> <em style="color:#6b7280;">Am o mașină / o casă / un câine.</em></li>
-                    <li><strong>Ich habe eine Schwester / einen Bruder / zwei Kinder.</strong> <em style="color:#6b7280;">Am o soră / un frate / doi copii.</em></li>
-                    <li><strong>Ich habe Hunger / Durst / Zeit / keine Zeit.</strong> <em style="color:#6b7280;">Mi-e foame / sete / am timp / nu am timp.</em></li>
-                    <li><strong>Ich habe Lust auf Kaffee / Tennis / einen Spaziergang.</strong> <em style="color:#6b7280;">Am chef de cafea / tenis / o plimbare.</em></li>
-                    <li><strong>Ich habe Kopfschmerzen / Fieber / Grippe.</strong> <em style="color:#6b7280;">Am dureri de cap / febră / gripă.</em></li>
+                    <li><strong>Ich habe ein Auto / ein Haus / einen Hund.</strong> <em style="color:#5A5147;">Am o mașină / o casă / un câine.</em></li>
+                    <li><strong>Ich habe eine Schwester / einen Bruder / zwei Kinder.</strong> <em style="color:#5A5147;">Am o soră / un frate / doi copii.</em></li>
+                    <li><strong>Ich habe Hunger / Durst / Zeit / keine Zeit.</strong> <em style="color:#5A5147;">Mi-e foame / sete / am timp / nu am timp.</em></li>
+                    <li><strong>Ich habe Lust auf Kaffee / Tennis / einen Spaziergang.</strong> <em style="color:#5A5147;">Am chef de cafea / tenis / o plimbare.</em></li>
+                    <li><strong>Ich habe Kopfschmerzen / Fieber / Grippe.</strong> <em style="color:#5A5147;">Am dureri de cap / febră / gripă.</em></li>
                 </ul>
                 <p style="margin-top: 12px; text-align: center; font-weight: bold; color: #065f46;">Cu sein (Lecția 2) + haben (acum), ai bazele oricărei conversații în germană. 🎉</p>
             </div>
